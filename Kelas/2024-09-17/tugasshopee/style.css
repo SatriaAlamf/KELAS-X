@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.banner-1 {
+  width: 800px;
+  height: 235px;
+  position: absolute;
+  top: 50px;
+  left: 158px;
+}
+
+.banner-2 {
+  width: 400px;
+  height: 120px;
+  position: absolute;
+  top: 50px;
+  left: 965px;
+}
+
+.banner-3 {
+  width: 400px;
+  height: 120px;
+  position: absolute;
+  top: 170px;
+  left: 965px;
+}
+.banner-1 img {
+  width: 800px;
+  height: 235px;
+}
+.banner-2 img {
+  width: 400px;
+  height: 115px;
+}
+
+.banner-3 img {
+  width: 400px;
+  height: 115px;
+}
+
+.icon-1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 208px;
+}
+
+.icon-2 {
+  width: 60px;
+  height: 60px;
+
+  position: absolute;
+  top: 320px;
+  left: 326px;
+}
+
+.icon-3 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 444px;
+}
+
+.icon-4 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 562px;
+}
+
+.icon-5 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 680px;
+}
+
+.icon-6 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 798px;
+}
+
+.icon-7 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 916px;
+}
+
+.icon-8 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 1034px;
+}
+
+.icon-9 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 1152px;
+}
+
+.icon-10 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 320px;
+  left: 1270px;
+}
+.icon img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 3px;
+  box-shadow: 0px 2px 5px whitesmoke;
+  border-radius: 13px;
+}
+
+.text {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  text-align: center;
+  position: absolute;
+  left: -16px;
+}
