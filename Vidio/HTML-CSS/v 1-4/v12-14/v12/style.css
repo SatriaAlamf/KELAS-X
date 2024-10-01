@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.col-1{
+    background: yellow;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 30px;
+    box-sizing: content-box;
+}
+
+.col-2{
+    background: green;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
