@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>SiAlam</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- Navigasi -->
+        <div class="container">
+            <nav class="navbar navbar-expand-sm sticky-top">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <a class="navbar-brand" href="#">Mau cari APA?</a>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#product">Produk</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#promo">Promo</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Kontak</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Tentang">Tentang</a>
+                            </li>
+                       
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+            <!-- slider -->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/iphone-15-finish-select-202309-6-1inch-black.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Iphone 15 plus</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/MacBook-Air-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Macbook Air 2024</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Ipad.jpg" class="d-block w-100" alt="Ipad">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ipad Pro 13</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <!-- jumbotron -->
+            <div class="p-5 mb-4 bg-light rounded-3">
+                <div class="container">
+                <div class="container-fluid py-5">
+                    <h1 class="display-2 fw-bold">PROMO 11.11 Sale!!</h1>
+                    <p class="col-md-8 fs-4">
+                        Using a series of utilities, you can create this jumbotron, just
+                        like the one in previous versions of Bootstrap. Check out the
+                        examples below for how you can remix and restyle it to your liking.
+                    </p>
+                    <button class="btn btn-success btn-lg" type="button">
+                        Lihat Sekarang
+                    </button>
+                </div>
+                </div>
+            </div>
+            
+
+            <!-- card -->
+                <div class="container">
+                    <div class="row" id="product">
+                        <div class="col-lg-4 d-flex justify-content-center">
+                            <div class="card border-0" style="width: 18rem;">
+                            <img src="images/iphone-15-finish-select-202309-6-1inch-black.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Iphone 15 Plus</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">Rp. 1000</h5>
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex justify-content-center">
+                            <div class="card border-0" style="width: 18rem;">
+                            <img src="images/Ipad.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Ipad pro 13</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">Rp. 1000</h5>
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 d-flex justify-content-center">
+                            <div class="card border-0" style="width: 18rem;">
+                            <img src="images/MacBook-Air-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Macbook Air 2024</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 class="card-title">Rp. 1000</h5>
+                                <a href="#" class="btn btn-primary">Beli</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" id="promo">
+                    <div class="row text-center bg-info text-light">
+                       <div class="col">
+                        <h1> PROMO BULAN INI!! </h1> 
+                    </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-4">
+                            <img src="images/laptop.png" width="365" alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <table class="table mt-3 table-borderles">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">No.</th>
+                                        <th scope="col">Laptop</th>
+                                        <th scope="col">Diskon</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Iphone 11</td>
+                                        <td>30%</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>iphone XR</td>
+                                        <td>40%</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Ipad Air 2</td>
+                                        <td>20%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="jumbotron jumbotron-fluid bg-dark text-light"  id="Tentang">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 mt-2">
+                            <p>
+                                <strong>SiAlam</strong> <br> Sidoarjo, Jawa timur <br> 61234
+                            </p>
+                        </div>
+                        <div class="col-lg-4 mt-2">
+                            <p>
+                                <strong>PEMBAYARAN</strong> 
+                                <br> BCA <br> 1234 <br>
+                                <br> BRI <br> 1234 <br>
+                                <br> MANDIRI <br> 1234
+                            </p>
+                        </div>
+                        <div class="col-lg-4 mt-2">
+                            <p>
+                                <strong>TENTANG</strong> <br> SiAlam sudah berdiri sejak 2024
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Form Contact</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Nama</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">isi nama dan alamat anda</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Alamat</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Kota</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Kode Pos</label>
+                                    <input type="text" class="form-control" id="exampleInputPassword1">
+                                </div>
+                            </div>
+                        </div>
+
+                    
+                    </form>                
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Kirim</button>
+                </div>
+                </div>
+            </div>
+            </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
