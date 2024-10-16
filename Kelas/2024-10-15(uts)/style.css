@@ -1,0 +1,102 @@
+.sld-1 {
+    background-image: url(assets/img/bg-masthead.jpg);
+    height: 600px;
+    display: block;
+    align-content:center ;
+   
+}
+
+
+.sld-2{
+    height: 600px;
+    display: block;
+    align-content:center ;
+    background-color: whitesmoke;
+}
+.sld-3{
+    height: 500px;
+    background-color:#007b9e;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.icon-circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50% ;
+    background-color: white;
+    margin: 0 auto 10px;
+}
+.sld-4{
+    background-image: url(assets/img/bg-callout.jpg);
+    width: 100%;
+    height: 700px;
+    display: block;
+    align-content: center;
+}
+
+.slide-5 {
+    width: 100%;
+    height: 1300px;
+
+    
+}
+.card {
+    width: 600px;
+    height: 380px;
+    display: block;
+    align-content: end;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover{
+    transform: scale(0.95);
+  }
+  .sld-6{
+
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    background-color: #007b9e;
+    display: block;
+    align-content: center;
+  }
+
+  .map-container {
+    height: 500px;
+    width: 100%;
+    
+   
+  }
+
+  .map{
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .circle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  footer{
+    height: 200px;
+    display: block;
+    align-content: center;
+  }
+
+  
+  
+
+  
