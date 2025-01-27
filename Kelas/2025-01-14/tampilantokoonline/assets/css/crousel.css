@@ -1,0 +1,7 @@
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-item {
+    min-width: 100%;
+}

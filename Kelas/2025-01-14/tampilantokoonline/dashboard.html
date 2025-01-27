@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animasi.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="flex items-center">
+                <img src="assets/images/logo.png" alt="Logo" class="h-10 mr-2">
+                <span class="text-xl font-bold">Nama Brand</span>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="index.html" class="text-gray-700 hover:text-blue-500">Beranda</a>
+                <a href="menu.html" class="text-gray-700 hover:text-blue-500">Menu</a>
+                <a href="about.html" class="text-gray-700 hover:text-blue-500">About</a>
+                <a href="login.html" class="text-gray-700 hover:text-blue-500">Login</a>
+                <a href="#" class="text-gray-700 hover:text-blue-500 relative flex items-center">
+                    <img src="assets/images/cart-icon.png" alt="Cart" class="h-6 w-6">
+                    <span class="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full px-1">3</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-white shadow-md h-screen p-4">
+            <h2 class="text-xl font-bold mb-4">Panel Admin</h2>
+            <ul>
+                <li class="mb-2">
+                    <a href="#" class="block p-2 text-gray-700 hover:bg-gray-200 rounded">Dashboard</a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="block p-2 text-gray-700 hover:bg-gray-200 rounded">Kelola Produk</a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="block p-2 text-gray-700 hover:bg-gray-200 rounded">Pesanan</a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="block p-2 text-gray-700 hover:bg-gray-200 rounded">Pengguna</a>
+                </li>
+                <li class="mb-2">
+                    <a href="#" class="block p-2 text-gray-700 hover:bg-gray-200 rounded">Laporan</a>
+                </li>
+                <li>
+                    <a href="#" class="block p-2 text-gray-700 hover:bg-gray-200 rounded">Pengaturan</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Konten Utama -->
+        <main class="flex-1 p-4">
+            <h2 class="text-3xl font-bold mb-4">Kelola Produk</h2>
+            <div class="mb-4">
+                <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition">Tambah Produk</button>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Nama Produk</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Harga</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Stok</th>
+                            <th class="px- 6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap">Produk 1</td>
+                            <td class="px-6 py-4 whitespace-nowrap">Rp 100.000</td>
+                            <td class="px-6 py-4 whitespace-nowrap">50</td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <button class="text-blue-500 hover:text-blue-700">Edit</button>
+                                <button class="text-red-500 hover:text-red-700 ml-2">Hapus</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap">Produk 2</td>
+                            <td class="px-6 py-4 whitespace-nowrap">Rp 150.000</td>
+                            <td class="px-6 py-4 whitespace-nowrap">30</td>
+                            <td class="px-6 py-4 whitespace-nowrap">
+                                <button class="text-blue-500 hover:text-blue-700">Edit</button>
+                                <button class="text-red-500 hover:text-red-700 ml-2">Hapus</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-8">
+        <div class="container mx-auto p-4">
+            <div class="flex justify-between">
+                <div>
+                    <h4 class="font-bold">Tentang Kami</h4>
+                    <p class="text-sm">Informasi tentang perusahaan dan visi kami.</p>
+                </div>
+                <div>
+                    <h4 class="font-bold">Kontak</h4>
+                    <p class="text-sm">Email: info@websitecozy.com</p>
+                    <p class="text-sm">Telepon: (021) 123-4567</p>
+                </div>
+                <div>
+                    <h4 class="font-bold">Ikuti Kami</h4>
+                    <div class="flex space-x-2">
+                        <a href="#" class="flex items-center text-blue-400">
+                            <img src="assets/images/facebook-icon.png" alt="Facebook" class="h-5 w-5 mr-1">Facebook
+                        </a>
+                        <a href="#" class="flex items-center text-blue-400">
+                            <img src="assets/images/instagram-icon.png" alt="Instagram" class="h-5 w-5 mr-1">Instagram
+                        </a>
+                        <a href="#" class="flex items-center text-blue-400">
+                            <img src="assets/images/twitter-icon.png" alt="Twitter" class="h-5 w-5 mr-1">Twitter
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <p class ="text-sm">© 2023 Website Cozy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
