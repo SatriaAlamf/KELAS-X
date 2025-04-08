@@ -1,0 +1,361 @@
+/* Main Styles for Crispy Chicken Website */
+
+/* Global Styles */
+:root {
+    --primary: #ff7e00;
+    --primary-light: #ffa33d;
+    --secondary: #f8c146;
+    --dark: #2b2b2b;
+    --light: #f8f9fa;
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b8;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary-light);
+}
+
+/* Navbar Styles */
+#mainNav {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: all 0.3s ease;
+    padding: 15px 0;
+}
+
+#mainNav.navbar-scrolled {
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+}
+
+.brand-text {
+    font-size: 24px;
+    color: var(--secondary);
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    padding: 8px 16px !important;
+    margin: 0 5px;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: var(--secondary) !important;
+}
+
+.nav-link.active {
+    color: var(--secondary) !important;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    right: 16px;
+    height: 2px;
+    background-color: var(--secondary);
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    background-color: var(--danger);
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-weight: 600;
+}
+
+/* Dropdown Animation */
+.dropdown-menu {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.dropdown-item {
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: var(--primary);
+    transform: translateX(5px);
+}
+
+.dropdown-item i {
+    width: 20px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/* Dropdown animation */
+.animate {
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slideIn {
+    animation-name: slideIn;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.footer-logo-img {
+    height: 35px;
+    width: auto;
+}
+
+.footer-heading {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+.footer-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary);
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--secondary);
+    padding-left: 5px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: var(--primary);
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    background-color: #151515;
+    color: #aaa;
+    padding: 15px 0;
+}
+
+/* Opening hours styles */
+.opening-hours li {
+    color: #ccc;
+}
+
+/* Contact info styles */
+.contact-info li {
+    color: #ccc;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-info li i {
+    color: var(--primary);
+    margin-right: 10px;
+    width: 16px;
+}
+
+/* Instagram section styling */
+.instagram-overlay {
+    background: rgba(255, 126, 0, 0.7);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+/* Button styles */
+.btn-warning {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: var(--primary-light);
+    border-color: var(--primary-light);
+    color: white;
+}
+
+.btn-outline-warning {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btn-outline-warning:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Card transitions */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    transition: all 0.5s ease;
+}
+
+/* Scroll to top button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.scroll-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.scroll-to-top:hover {
+    background-color: var(--primary-light);
+    transform: translateY(-5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.95);
+        border-radius: 10px;
+        padding: 15px;
+        margin-top: 10px;
+    }
+    
+    .nav-link {
+        padding: 10px 20px !important;
+    }
+    
+    .dropdown-menu {
+        background-color: transparent;
+        box-shadow: none;
+        border-left: 2px solid var(--secondary);
+    }
+    
+    .dropdown-item {
+        color: #fff;
+    }
+    
+    .dropdown-item:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: var(--secondary);
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+    
+    .footer-heading::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+    
+    .copyright {
+        text-align: center;
+    }
+}
