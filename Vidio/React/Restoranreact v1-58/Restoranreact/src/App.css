@@ -1,0 +1,60 @@
+.App {
+  min-height: 100vh;
+  background: #f4f6fb;
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+  padding: 8px 18px;
+  border-radius: 4px;
+ 
+}
+
+nav ul li a:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  gap: 16px;
+  margin: 24px auto;
+  max-width: 900px;
+}
+
+.side {
+  flex: 1;
+  background: #fff;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+.main {
+  flex: 3;
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.footer {
+  margin: 32px auto 0 auto;
+  padding: 12px 0;
+  background: #f8f9fa;
+  border-top: 1px solid #eee;
+  text-align: center;
+  color: #888;
+  max-width: 900px;
+}
