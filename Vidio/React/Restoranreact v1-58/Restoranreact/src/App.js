@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Back from './back/Back';
 import Login from './back/Login';
-import RequireAuth from './RequireAuth'; // tambahkan ini
+import RequireAuth from './Authrequire'; // tambahkan ini
 
 function App() {
   return (
