@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+a {
+    color: white; 
+}
+
+
+    /* Dropdown transition */
+    .group:hover .group-hover\:block {
+        display: block;
+        animation: fadeIn 0.2s ease-in-out;
+    }
+    
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    /* Dropdown shadow with better definition */
+    .shadow-xl {
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 
+                    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+
+    /* Dropdown Menu Styling */
+.group:hover .group-hover\:block {
+    display: block;
+    animation: fadeInDown 0.3s ease-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ensure dropdown is above other elements */
+.z-50 {
+    z-index: 50;
+}
+
+/* Smooth icon rotation */
+.group:hover .group-hover\:rotate-180 {
+    transform: rotate(180deg);
+}
+
+/* Shadow enhancement */
+.shadow-2xl {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+.group:hover .hidden {
+    display: block !important;
+}
+
+    .nav-link {
+        @apply flex items-center text-white hover:text-amber-200 transition-colors;
+    }
+    
+    .dropdown-item {
+        @apply flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-amber-50 hover:text-amber-700 transition-colors;
+    }
+
+    .category-card {
+        @apply relative overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300;
+    }
+
+    .category-overlay {
+        @apply absolute inset-0 bg-gradient-to-br from-amber-500/50 to-amber-800/50 group-hover:opacity-75 transition-opacity;
+    }
+
+    .product-card {
+        @apply bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300;
+    }
+
